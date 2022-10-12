@@ -1,6 +1,6 @@
 import jaa.util.*;
 public class SpiralMatrix{
-    public static void Call(int matrix[][]){
+    public static void S.Mtx(int matrix[][]){
         int startRow = 0;
         int startCol = 0;
         int endRow = matrix.length-1;
@@ -35,6 +35,6 @@ public class SpiralMatrix{
                          {5, 6, 7, 8},
                          {9, 10, 11, 12},
                          {13, 14, 15, 16}};
-        Call(matrix);
+        S.Mtx(matrix);
     }
 }
